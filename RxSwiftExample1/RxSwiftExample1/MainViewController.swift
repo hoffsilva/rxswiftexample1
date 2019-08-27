@@ -33,8 +33,8 @@ class MainViewController: UIViewController {
 extension MainViewController: UITextFieldDelegate {
     
     func textFieldDidBeginEditing(_ textField: UITextField) {
-        typpedStringPublishSubject.subscribe(onNext: { [weak self] typpedValue in
-            self?.label.text = typpedValue
+        typpedStringPublishSubject.subscribe(onNext: {
+            self.label.text = $0
         }).disposed(by: disposeBag)
     }
     
