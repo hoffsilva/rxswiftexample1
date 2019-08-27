@@ -3,13 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		8AE39152BF4118C3735D69A4 /* Pods_RxSwiftExample1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7122ABF8677FB6E83A1B16 /* Pods_RxSwiftExample1.framework */; };
 		CAB24C3123156B70000F4810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB24C3023156B70000F4810 /* AppDelegate.swift */; };
-		CAB24C3323156B70000F4810 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB24C3223156B70000F4810 /* ViewController.swift */; };
+		CAB24C3323156B70000F4810 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB24C3223156B70000F4810 /* MainViewController.swift */; };
 		CAB24C3623156B70000F4810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB24C3423156B70000F4810 /* Main.storyboard */; };
 		CAB24C3823156B73000F4810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB24C3723156B73000F4810 /* Assets.xcassets */; };
 		CAB24C3B23156B73000F4810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB24C3923156B73000F4810 /* LaunchScreen.storyboard */; };
@@ -21,7 +21,7 @@
 		BC7122ABF8677FB6E83A1B16 /* Pods_RxSwiftExample1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftExample1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAB24C2D23156B70000F4810 /* RxSwiftExample1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftExample1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAB24C3023156B70000F4810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CAB24C3223156B70000F4810 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAB24C3223156B70000F4810 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CAB24C3523156B70000F4810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CAB24C3723156B73000F4810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAB24C3A23156B73000F4810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,6 @@
 				0AAACEA02068A7B842D83B09 /* Pods-RxSwiftExample1.debug.xcconfig */,
 				84D1C03CA17E1B27F571781C /* Pods-RxSwiftExample1.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -80,7 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				CAB24C3023156B70000F4810 /* AppDelegate.swift */,
-				CAB24C3223156B70000F4810 /* ViewController.swift */,
+				CAB24C3223156B70000F4810 /* MainViewController.swift */,
 				CAB24C3423156B70000F4810 /* Main.storyboard */,
 				CAB24C3723156B73000F4810 /* Assets.xcassets */,
 				CAB24C3923156B73000F4810 /* LaunchScreen.storyboard */,
@@ -204,7 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAB24C3323156B70000F4810 /* ViewController.swift in Sources */,
+				CAB24C3323156B70000F4810 /* MainViewController.swift in Sources */,
 				CAB24C3123156B70000F4810 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
