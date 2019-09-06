@@ -11,6 +11,8 @@ import RxSwift
 
 class MainViewController: UIViewController {
     
+    let a = ["a"]
+    
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var textField: UITextField!
     
@@ -22,6 +24,12 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         textField.delegate = self
         self.textField.addTarget(self, action: #selector(MainViewController.startObservable(_:)), for: .editingChanged)
+        a.contains("")
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print("resources: \(RxSwift.Resources.total)")
     }
 
     @objc private func startObservable(_ textField: UITextField ) {
